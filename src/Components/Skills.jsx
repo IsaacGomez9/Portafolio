@@ -4,8 +4,8 @@ const Skills = () => {
   return (
     <div className="container">
       <div className="text-center">
-        <h1>Skills And Tools</h1>
-        <p>My technical level</p>
+        <h1>Habilidades y Herramientas</h1>
+        <p>Mi nivel Tecnico</p>
       </div>
       <div className="d-flex justify-content-around mt-5">
         <img

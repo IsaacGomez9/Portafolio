@@ -12,13 +12,13 @@ const NavBarComponent = () => {
               Home
             </Nav.Link>
             <Nav.Link href="#features" style={{ color: "#F1ECE7" }}>
-              About
+              Sobre mi
             </Nav.Link>
             <Nav.Link href="#pricing" style={{ color: "#F1ECE7" }}>
-              Skills
+              Habilidades
             </Nav.Link>
             <Nav.Link href="#pricing" style={{ color: "#F1ECE7" }}>
-              Conact me
+              Contacta me
             </Nav.Link>
           </Nav>
         </Container>

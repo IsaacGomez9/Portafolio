@@ -9,8 +9,8 @@ const Home = () => {
     <div className="container">
       <Saludo />
       <hr/>
-      <h1 className="text-center mt-5">About me</h1>
-      <p className="text-center">My introduction</p>
+      <h1 className="text-center mt-5">¿Quien soy?</h1>
+      <p className="text-center">Mi introducción</p>
       <AboutMe />
       <hr/>
       <Skills/>
