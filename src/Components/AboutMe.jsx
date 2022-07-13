@@ -21,10 +21,10 @@ const AboutMe = () => {
           >
             <div className="">
               <p className="">
-                Soy un desarrollador web que cuenta con conocimientos en HTML |
-                CSS | Javascript y Como biblioteca de JavaScript Utilizo React
-                js, trabajo con metodologias agiles lo que me permite
-                desempeñarme de una manera excelente en mi campo
+                Soy un desarrollador web. Cuento con conocimientos en: HTML |
+                CSS | Javascript, y Como biblioteca de JavaScript Utilizo React
+                js. Trabajo con metodologias agiles, lo que me permite
+                desempeñarme de una manera excelente en mi campo laboral.
               </p>
               <div className="d-flex justify-content-around mt-5">
                 <div>

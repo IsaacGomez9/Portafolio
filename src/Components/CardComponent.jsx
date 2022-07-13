@@ -9,15 +9,15 @@ const CardComponent = () => {
         <Col sm={6} xs={12}>
           <ProyectCard
             img="https://res.cloudinary.com/duddljshu/image/upload/v1657682767/ModaRapida_wmmch1.png"
-            title="Moda Rapida"
-            description="En este proyecto utilice HTML | CSS | JavaScript | para lograr una landing page enfocada en el tema de la moda rapida, mi principal objetivo era demostrar mis habilidades en CSS "
+            title="Moda Rápida"
+            description="En éste proyecto utilicé: HTML | CSS | JavaScript  para lograr una landing page enfocada en el tema de la moda rapida. Mi principal objetivo era demostrar mis habilidades en CSS. "
           />
         </Col>
         <Col sm={6} xs={12} className="mt-5">
           <ProyectCard
-            title="Pronostico del Tiempo"
+            title="Pronóstico del Tiempo"
             img="https://res.cloudinary.com/duddljshu/image/upload/v1657682676/Time_f5tm27.png"
-            description="En este proyecto utilice React Js | Redux | Firebase Crud | React-Bootstrap.  Mi principal objetivo era practicar el inicio y logeo de sesion con Firebase y hacer un crud de este con Redux"
+            description="En éste proyecto utilice React Js | Redux | Firebase Crud | React-Bootstrap.  Mi principal objetivo era practicar el inicio y logeo de sesión con Firebase y hacer un crud de este con Redux"
           />
         </Col>
       </Row>
@@ -26,15 +26,15 @@ const CardComponent = () => {
           <ProyectCard
             title="Rick And Morty Wiki"
             img="https://res.cloudinary.com/duddljshu/image/upload/v1657680711/Rick_And_morty_utyq5w.png"
-            description="En este proyecto utilice React Js | Redux | Firebase Login | React-Bootstrap | En este Proyecto mi objetivo principal era consumir una API con la cual pudiera hacer una barra de busqueda de personajes, así como Practicar enrutamiento dinamo con React Router Dom"
+            description="En éste proyecto utilicé: React Js | Redux | Firebase Login | React-Bootstrap. En esté proyecto mi objetivo principal, era consumir una API con la cual pudiera hacer una barra de búsqueda de personajes, así como Practicar enrutamiento dinámico con React Router Dom."
           />
         </Col>
         <Col sm={6} xs={12} className="mt-5">
           <ProyectCard
             title="Landing Page Restaurante"
             img="https://res.cloudinary.com/duddljshu/image/upload/v1657682920/LandingPage_i4had8.png"
-            description="En este Proyecto utilice   HTML | CSS | JavaScript | Dark mode | Light mode |  en este proyecto mi objetivo era seguir un prototipo de alta fidelidad de Figma y hacer que este tuviera Dark mode y Light mode"
-         />
+            description="En éste Proyecto utilicé:   HTML | CSS | JavaScript | Dark mode | Light mode. Mi objetivo era seguir un prototipo de alta fidelidad de Figma, y hacer que este tuviera Dark mode y Light mode."
+          />
         </Col>
       </Row>
     </Container>
