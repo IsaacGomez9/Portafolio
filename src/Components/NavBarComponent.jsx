@@ -1,13 +1,13 @@
 import React from "react";
 import { Navbar, Container } from "react-bootstrap";
 
-const NavBarComponent = () => {
+const NavBarComponent = ({texto}) => {
   return (
     <div>
       <Navbar bg="" variant="" style={{ backgroundColor: "#114358" }}>
         <Container>
           <Navbar.Brand className="m-auto" style={{ color: "#F1ECE7" }}>
-            Isaac Gómez
+            {texto}
           </Navbar.Brand>
         </Container>
       </Navbar>

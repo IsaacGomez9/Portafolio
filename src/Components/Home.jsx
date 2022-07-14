@@ -9,7 +9,7 @@ const Home = () => {
     <div className="container">
       <Saludo />
       <hr />
-      <h1 className="text-center mt-5 ">¿Quien soy?</h1>
+      <h1 className="text-center mt-5 ">¿Quién soy?</h1>
       <p className="text-center " style={{ color: "#610707" }}>Mi introducción</p>
       <AboutMe />
       <hr />

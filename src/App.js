@@ -4,9 +4,10 @@ import NavBarComponent from "./Components/NavBarComponent";
 function App() {
   return (
     <div className="App" >
-      <NavBarComponent/>
+      <NavBarComponent texto="Isaac Gómez"/>
       <Home/>
-  
+      <NavBarComponent texto="Desarrollado por @Isaac G"/>
+
     </div>
   );
 }
