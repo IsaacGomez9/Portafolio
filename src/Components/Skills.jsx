@@ -5,7 +5,7 @@ const Skills = () => {
     <div className="container">
       <div className="text-center">
         <h1>Habilidades y Herramientas</h1>
-        <p className="text-danger">Mi nivel Tecnico</p>
+        <p className=""  style={{ color: "#610707" }}>Mi nivel Tecnico</p>
       </div>
       <div className="d-flex justify-content-around mt-5">
         <img

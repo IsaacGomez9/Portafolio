@@ -20,9 +20,9 @@ const AboutMe = () => {
             style={{ height: "400px" }}
           >
             <div className="">
-            <p>
+            <p className="">
                 Soy Isaac Gomez{" "}
-                <span className="text-danger">
+                <span className="" style={{ color: "#610707" }}>
                   un desarrollador web(trainee)
                 </span>{" "}
                 que le encanta todo lo relacionado con el tema del desarrollo
@@ -37,11 +37,11 @@ const AboutMe = () => {
              {/*   */}
               <div className="d-flex justify-content-around mt-5">
                 <div>
-                  <h5 className="text-danger">6+ meses</h5>
+                  <h5 className=""  style={{ color: "#610707" }} >6+ meses</h5>
                   <h6>Experiencia</h6>
                 </div>
                 <div>
-                  <h5 className="text-danger"> 15+</h5>
+                  <h5 className=""  style={{ color: "#610707" }}> 15+</h5>
                   <h6>Proyectos Realizados</h6>
                 </div>
                 

@@ -5,13 +5,16 @@ const Saludo = () => {
   return (
     <Container className="mt-5 text-center">
       <Row>
-        <Col sm={6}>
+        <Col sm={6} className="m-auto">
           <div className="mt-5  d-flex justify-content-around">
-            <div className="mt-5 m-auto">
+            <div className="">
               <h1>Hola, Soy Isaac Gómez</h1>
-              <p className="text-danger">Frontend Developer</p>
-              <p className="">
-                Soy un <span className="text-danger">desarrollador web.</span>{" "}
+              <p className="" style={{ color: "#610707" }}>
+                Frontend Developer
+              </p>
+              <p className="text-body">
+                Soy un{" "}
+                <span style={{ color: "#610707" }}>desarrollador web.</span>{" "}
                 Cuento con conocimientos en: HTML | CSS | Javascript, y Como
                 biblioteca de JavaScript Utilizo React js. Trabajo con
                 metodologias agiles, lo que me permite desempeñarme de una
@@ -21,18 +24,19 @@ const Saludo = () => {
                 href="https://www.linkedin.com/in/isaac-cajamarca-gomez/"
                 style={{ backgroundColor: "#114358" }}
                 target="_blank"
+                className="mt-3"
               >
                 Contactame !
               </Button>
             </div>
           </div>
         </Col>
-        <Col sm={6}>
-          <div className="ms-5  text-center mt-5">
+        <Col sm={6} className="m-auto">
+          <div className=" text-center ">
             <img
-              src="https://res.cloudinary.com/duddljshu/image/upload/v1657667289/WhatsApp_Image_2022-07-12_at_6.06.20_PM_hwuziu.jpg"
+              src="https://res.cloudinary.com/duddljshu/image/upload/v1657773918/WhatsApp_Image_2022-07-13_at_11.44.13_PM_1_acidgb.jpg"
               alt=""
-              style={{ width: "80%", borderRadius: "90px" }}
+              style={{ width: "110%" }}
             />
           </div>
         </Col>

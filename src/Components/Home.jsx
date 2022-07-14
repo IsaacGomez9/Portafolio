@@ -10,7 +10,7 @@ const Home = () => {
       <Saludo />
       <hr />
       <h1 className="text-center mt-5 ">¿Quien soy?</h1>
-      <p className="text-center text-danger">Mi introducción</p>
+      <p className="text-center " style={{ color: "#610707" }}>Mi introducción</p>
       <AboutMe />
       <hr />
       <Skills />
