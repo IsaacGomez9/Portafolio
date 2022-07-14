@@ -10,7 +10,7 @@ const AboutMe = () => {
             <img
               src="https://res.cloudinary.com/duddljshu/image/upload/v1657667289/WhatsApp_Image_2022-07-12_at_6.06.20_PM_hwuziu.jpg"
               alt=""
-              style={{ width: "80" }}
+              style={{ width: "80", borderRadius: '100px' }}
             />
           </div>
         </Col>
