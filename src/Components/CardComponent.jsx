@@ -8,11 +8,12 @@ const CardComponent = () => {
       <Row>
         <Col sm={6} xs={12}>
           <ProyectCard
-            img="https://res.cloudinary.com/duddljshu/image/upload/v1657682767/ModaRapida_wmmch1.png"
-            title="Moda Rápida"
-            description="En éste proyecto utilicé: HTML | CSS | JavaScript  para lograr una landing page enfocada en el tema de la moda rapida. Mi principal objetivo era demostrar mis habilidades en CSS. "
-            proyecto="https://github.com/IsaacGomez9/Pagina-Moda-rapida./tree/main/Proyecto-final"
-            link="https://phenomenal-narwhal-81224a.netlify.app"
+           title="Rick And Morty Wiki"
+           img="https://res.cloudinary.com/duddljshu/image/upload/v1657787145/Captura_hzhrsd.png"
+           description="En éste proyecto utilicé: React Js | Redux | Firebase Login | React-Bootstrap. En esté proyecto mi objetivo principal, era consumir una API con la cual pudiera hacer una barra de búsqueda de personajes, así como Practicar enrutamiento dinámico con React Router Dom."
+           proyecto="https://github.com/IsaacGomez9/Firebase-Redux-Rick-and-Morty"
+           link="https://firebase-redux-rick-and-morty.vercel.app/"
+           
           />
         </Col>
         <Col sm={6} xs={12} className="mt-5">
@@ -28,11 +29,11 @@ const CardComponent = () => {
       <Row className="mt-5">
         <Col sm={6} xs={12}>
           <ProyectCard
-            title="Rick And Morty Wiki"
-            img="https://res.cloudinary.com/duddljshu/image/upload/v1657680711/Rick_And_morty_utyq5w.png"
-            description="En éste proyecto utilicé: React Js | Redux | Firebase Login | React-Bootstrap. En esté proyecto mi objetivo principal, era consumir una API con la cual pudiera hacer una barra de búsqueda de personajes, así como Practicar enrutamiento dinámico con React Router Dom."
-            proyecto="https://github.com/IsaacGomez9/Firebase-Redux-Rick-and-Morty"
-            link="https://firebase-redux-rick-and-morty.vercel.app/"
+            img="https://res.cloudinary.com/duddljshu/image/upload/v1657682767/ModaRapida_wmmch1.png"
+            title="Moda Rápida"
+            description="En éste proyecto utilicé: HTML | CSS | JavaScript  para lograr una landing page enfocada en el tema de la moda rapida. Mi principal objetivo era demostrar mis habilidades en CSS. "
+            proyecto="https://github.com/IsaacGomez9/Pagina-Moda-rapida./tree/main/Proyecto-final"
+            link="https://phenomenal-narwhal-81224a.netlify.app"
           />
         </Col>
         <Col sm={6} xs={12} className="mt-5">

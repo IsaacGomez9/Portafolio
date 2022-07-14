@@ -20,31 +20,35 @@ const AboutMe = () => {
             style={{ height: "400px" }}
           >
             <div className="">
-            <p className="">
+              <p className="">
                 Soy Isaac Gomez{" "}
                 <span className="" style={{ color: "#610707" }}>
                   un desarrollador web(trainee)
                 </span>{" "}
-                que le encanta todo lo relacionado con el tema del desarrollo
-                web, por lo que actualmente pertenezco al Bootcamp de Fron-End
-                Academia Geek, en el cual aprendo y pongo a prueba este
-                conocimiento lo que me ayuda a mejorar mis habilidades y
-                sentirme mas comodo con las nuevas tecnologias; me encantaria
-                pertenecer a un equipo de trabajo en donde pueda poner en
-                practica mis habilidades para mejorarlas reforzando mis
-                destrezas y mis aptitudes.
+                Soy Isaac Gómez, un desarrollador web (trainee). Me encanta todo
+                lo relacionado con el tema del desarrollo web, por lo que
+                actualmente pertenezco al Bootcamp de Fron-End Academia Geek, en
+                el cual,aprendo y pongo a prueba este conocimiento; lo que me
+                ayuda a mejorar mis habilidades y sentirme más cómodo con las
+                nuevas tecnologias. Me encantaria pertenecer a un equipo de
+                trabajo, en donde pueda poner en practica mis habilidades para
+                mejorarlas, y desarrollar más mis destrezas y aptitudes.
               </p>
-             {/*   */}
+              {/*   */}
               <div className="d-flex justify-content-around mt-5">
                 <div>
-                  <h5 className=""  style={{ color: "#610707" }} >6+ meses</h5>
+                  <h5 className="" style={{ color: "#610707" }}>
+                    6+ meses
+                  </h5>
                   <h6>Experiencia</h6>
                 </div>
                 <div>
-                  <h5 className=""  style={{ color: "#610707" }}> 15+</h5>
+                  <h5 className="" style={{ color: "#610707" }}>
+                    {" "}
+                    15+
+                  </h5>
                   <h6>Proyectos Realizados</h6>
                 </div>
-                
               </div>
             </div>
           </div>
