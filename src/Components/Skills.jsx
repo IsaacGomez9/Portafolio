@@ -5,7 +5,7 @@ const Skills = () => {
     <div className="container">
       <div className="text-center">
         <h1>Habilidades y Herramientas</h1>
-        <p>Mi nivel Tecnico</p>
+        <p className="text-danger">Mi nivel Tecnico</p>
       </div>
       <div className="d-flex justify-content-around mt-5">
         <img
@@ -54,7 +54,9 @@ const Skills = () => {
           style={{ width: "10%" }}
         />
       </div>
+      <hr className=""/>
     </div>
+    
   );
 };
 

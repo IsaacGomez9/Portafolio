@@ -21,24 +21,21 @@ const AboutMe = () => {
           >
             <div className="">
               <p className="">
-                Soy un desarrollador web. Cuento con conocimientos en: HTML |
+                Soy un <span className="text-danger">desarrollador web.</span> Cuento con conocimientos en: HTML |
                 CSS | Javascript, y Como biblioteca de JavaScript Utilizo React
                 js. Trabajo con metodologias agiles, lo que me permite
                 desempeñarme de una manera excelente en mi campo laboral.
               </p>
               <div className="d-flex justify-content-around mt-5">
                 <div>
-                  <h5>6+ meses</h5>
+                  <h5 className="text-danger">6+ meses</h5>
                   <h6>Experiencia</h6>
                 </div>
                 <div>
-                  <h5> 15+</h5>
+                  <h5 className="text-danger"> 15+</h5>
                   <h6>Proyectos Realizados</h6>
                 </div>
-                <div>
-                  <h5> 1 </h5>
-                  <h6>Trabajos</h6>
-                </div>
+                
               </div>
             </div>
           </div>

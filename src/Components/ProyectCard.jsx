@@ -14,8 +14,8 @@ const ProyectCard = ({ img, title, description, proyecto, link}) => {
             {description}
           </Card.Text>
           <div className="d-flex justify-content-around">
-          <Button className="btn  w-25" href={proyecto} style={{ backgroundColor: "#114358" }}>Codigo</Button>
-           <Button className="btn  w-25" href={link} style={{ backgroundColor: "#114358" }}>Despliegue</Button>
+          <Button className="btn  w-25" href={proyecto} style={{ backgroundColor: "#114358" }} target="_blank">Codigo</Button>
+           <Button className="btn  w-25" href={link} style={{ backgroundColor: "#114358" }} target="_blank">Despliegue</Button>
           </div>
           
         </Card.Body>

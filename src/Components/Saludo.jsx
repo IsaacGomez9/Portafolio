@@ -9,16 +9,28 @@ const Saludo = () => {
           <div className="mt-5  d-flex justify-content-around">
             <div className="mt-5 m-auto">
               <h1>Hola, Soy Isaac Gómez</h1>
-              <p>Frontend Developer</p>
+              <p className="text-danger">Frontend Developer</p>
               <p>
-                Soy un desarrollador web. Cuento con los conocimientos
-                suficientes, para enfrentar nuevos retos y brindar soluciones
-                basadas en las necesidades del usuario. Estoy dispuesto a
-                aprender nuevas tecnologías para poder crecer profesionalmente,
-                adquirir más experiencia y poder brindar mejores soluciones al
-                usuario.
+                Soy Isaac Gomez{" "}
+                <span className="text-danger">
+                  un desarrollador web(trainee)
+                </span>{" "}
+                que le encanta todo lo relacionado con el tema del desarrollo
+                web, por lo que actualmente pertenezco al Bootcamp de Fron-End
+                Academia Geek, en el cual aprendo y pongo a prueba este
+                conocimiento lo que me ayuda a mejorar mis habilidades y
+                sentirme mas comodo con las nuevas tecnologias; me encantaria
+                pertenecer a un equipo de trabajo en donde pueda poner en
+                practica mis habilidades para mejorarlas reforzando mis
+                destrezas y mis aptitudes.
               </p>
-              <Button  href="https://www.linkedin.com/in/isaac-cajamarca-gomez/" style={{backgroundColor: '#114358'}}>Contact me</Button>
+              <Button
+                href="https://www.linkedin.com/in/isaac-cajamarca-gomez/"
+                style={{ backgroundColor: "#114358" }}
+                target="_blank"
+              >
+                Contact me
+              </Button>
             </div>
           </div>
         </Col>
@@ -27,7 +39,7 @@ const Saludo = () => {
             <img
               src="https://res.cloudinary.com/duddljshu/image/upload/v1657667289/WhatsApp_Image_2022-07-12_at_6.06.20_PM_hwuziu.jpg"
               alt=""
-              style={{ width: "80%", borderRadius: '90px'}}
+              style={{ width: "80%", borderRadius: "90px" }}
             />
           </div>
         </Col>
