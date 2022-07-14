@@ -20,12 +20,21 @@ const AboutMe = () => {
             style={{ height: "400px" }}
           >
             <div className="">
-              <p className="">
-                Soy un <span className="text-danger">desarrollador web.</span> Cuento con conocimientos en: HTML |
-                CSS | Javascript, y Como biblioteca de JavaScript Utilizo React
-                js. Trabajo con metodologias agiles, lo que me permite
-                desempeñarme de una manera excelente en mi campo laboral.
+            <p>
+                Soy Isaac Gomez{" "}
+                <span className="text-danger">
+                  un desarrollador web(trainee)
+                </span>{" "}
+                que le encanta todo lo relacionado con el tema del desarrollo
+                web, por lo que actualmente pertenezco al Bootcamp de Fron-End
+                Academia Geek, en el cual aprendo y pongo a prueba este
+                conocimiento lo que me ayuda a mejorar mis habilidades y
+                sentirme mas comodo con las nuevas tecnologias; me encantaria
+                pertenecer a un equipo de trabajo en donde pueda poner en
+                practica mis habilidades para mejorarlas reforzando mis
+                destrezas y mis aptitudes.
               </p>
+             {/*   */}
               <div className="d-flex justify-content-around mt-5">
                 <div>
                   <h5 className="text-danger">6+ meses</h5>
