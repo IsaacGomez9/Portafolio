@@ -2,7 +2,8 @@ import React from "react";
 import { Card, Button } from "react-bootstrap";
 import styles from '../Styles/Style.module.css'
 
-const ProyectCard = ({ img, title, description }) => {
+
+const ProyectCard = ({ img, title, description, proyecto, link}) => {
   return (
     <div>
       <Card className={styles.card}>
@@ -12,7 +13,11 @@ const ProyectCard = ({ img, title, description }) => {
           <Card.Text>
             {description}
           </Card.Text>
-          <Button className="btn  w-25  " style={{ backgroundColor: "#114358" }}>Link</Button>
+          <div className="d-flex justify-content-around">
+          <Button className="btn  w-25" href={proyecto} style={{ backgroundColor: "#114358" }}>Codigo</Button>
+           <Button className="btn  w-25" href={link} style={{ backgroundColor: "#114358" }}>Despliegue</Button>
+          </div>
+          
         </Card.Body>
       </Card>
     </div>

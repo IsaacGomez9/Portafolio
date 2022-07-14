@@ -1,26 +1,14 @@
 import React from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Container } from "react-bootstrap";
 
 const NavBarComponent = () => {
   return (
     <div>
       <Navbar bg="" variant="" style={{ backgroundColor: "#114358" }}>
         <Container>
-          <Navbar.Brand href="#home" style={{ color: "#F1ECE7" }}>Isaac Gómez</Navbar.Brand>
-          <Nav className="">
-            <Nav.Link href="#home" style={{ color: "#F1ECE7" }}>
-              Home
-            </Nav.Link>
-            <Nav.Link href="#features" style={{ color: "#F1ECE7" }}>
-              Sobre mi
-            </Nav.Link>
-            <Nav.Link href="#pricing" style={{ color: "#F1ECE7" }}>
-              Habilidades
-            </Nav.Link>
-            <Nav.Link href="#pricing" style={{ color: "#F1ECE7" }}>
-              Contacta me
-            </Nav.Link>
-          </Nav>
+          <Navbar.Brand className="m-auto" style={{ color: "#F1ECE7" }}>
+            Isaac Gómez
+          </Navbar.Brand>
         </Container>
       </Navbar>
     </div>

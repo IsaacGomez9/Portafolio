@@ -8,14 +8,13 @@ const Home = () => {
   return (
     <div className="container">
       <Saludo />
-      <hr/>
+      <hr />
       <h1 className="text-center mt-5">¿Quien soy?</h1>
       <p className="text-center">Mi introducción</p>
       <AboutMe />
-      <hr/>
-      <Skills/>
-      <CarruselTrabajos/>
-
+      <hr />
+      <Skills />
+      <CarruselTrabajos />
     </div>
   );
 };

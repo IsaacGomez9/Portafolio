@@ -18,7 +18,7 @@ const Saludo = () => {
                 adquirir más experiencia y poder brindar mejores soluciones al
                 usuario.
               </p>
-              <Button style={{backgroundColor: '#114358'}}>Contact me</Button>
+              <Button  href="https://www.linkedin.com/in/isaac-cajamarca-gomez/" style={{backgroundColor: '#114358'}}>Contact me</Button>
             </div>
           </div>
         </Col>
