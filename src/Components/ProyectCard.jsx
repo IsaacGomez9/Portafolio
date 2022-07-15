@@ -7,7 +7,7 @@ const ProyectCard = ({ img, title, description, proyecto, link}) => {
   return (
     <div>
       <Card className={styles.card}>
-        <Card.Img variant="top" src={img} />
+        <Card.Img variant="top" src={img}  />
         <Card.Body>
           <Card.Title className="text-center">{title}</Card.Title>
           <Card.Text>
