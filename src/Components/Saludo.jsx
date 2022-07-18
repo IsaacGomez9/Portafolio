@@ -36,7 +36,7 @@ const Saludo = () => {
             <img
               src="https://res.cloudinary.com/duddljshu/image/upload/v1657773918/WhatsApp_Image_2022-07-13_at_11.44.13_PM_1_acidgb.jpg"
               alt=""
-              style={{ width: "110%" }}
+              style={{ width: "100%" }}
             />
           </div>
         </Col>
