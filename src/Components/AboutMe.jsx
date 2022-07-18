@@ -11,6 +11,7 @@ const AboutMe = () => {
               src="https://res.cloudinary.com/duddljshu/image/upload/v1657667289/WhatsApp_Image_2022-07-12_at_6.06.20_PM_hwuziu.jpg"
               alt=""
               style={{ width: "70%", borderRadius: "100px" }}
+              className=""
             />
           </div>
         </Col>
@@ -19,7 +20,7 @@ const AboutMe = () => {
             className="d-flex align-items-center"
             style={{ height: "400px" }}
           >
-            <div className="">
+            <div className="mt-5">
               <p className="">
                 Soy Isaac Gomez{" "}
                 <span className="" style={{ color: "#610707" }}>
