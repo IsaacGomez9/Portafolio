@@ -15,7 +15,7 @@ const ProyectCard = ({ img, title, description, proyecto, link }) => {
           <Button
             className="btn  "
             href={proyecto}
-            style={{ backgroundColor: "#114358", width: "35%" }}
+            style={{ backgroundColor: "#114358", width: "40%" }}
             target="_blank"
           >
             Codigo
@@ -23,7 +23,7 @@ const ProyectCard = ({ img, title, description, proyecto, link }) => {
           <Button
             className=" "
             href={link}
-            style={{ backgroundColor: "#114358", width: "35%" }}
+            style={{ backgroundColor: "#114358", width: "40%" }}
             target="_blank"
           >
             Despliegue
