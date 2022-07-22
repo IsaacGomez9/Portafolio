@@ -1,6 +1,5 @@
 import React from "react";
 
-
 import CardComponent from "./CardComponent";
 
 const CarruselTrabajos = () => {
@@ -8,11 +7,8 @@ const CarruselTrabajos = () => {
     <div className="container mt-5">
       <h1 className="text-center">Mis Proyectos</h1>
       <div className="mt-5 d-flex">
-     <CardComponent
-     />
-     
+        <CardComponent />
       </div>
-      
     </div>
   );
 };

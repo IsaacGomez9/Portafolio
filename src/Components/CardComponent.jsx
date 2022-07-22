@@ -4,7 +4,7 @@ import ProyectCard from "./ProyectCard";
 
 const CardComponent = () => {
   return (
-    <Container className="p-4">
+    <Container className="p-4 mt-3">
       <Row>
         <Col sm={6} xs={12}>
           <ProyectCard

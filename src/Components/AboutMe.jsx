@@ -1,17 +1,17 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import styles from "../Styles/Style.module.css";
 
 const AboutMe = () => {
   return (
-    <Container className="mt-5 text-center">
+    <Container className="mt-5">
       <Row>
         <Col sm={6}>
-          <div className="  text-center">
+          <div className={styles.IsaacImage}>
             <img
               src="https://res.cloudinary.com/duddljshu/image/upload/v1657667289/WhatsApp_Image_2022-07-12_at_6.06.20_PM_hwuziu.jpg"
               alt=""
               style={{ width: "70%", borderRadius: "100px" }}
-              className=""
             />
           </div>
         </Col>
@@ -20,7 +20,7 @@ const AboutMe = () => {
             className="d-flex align-items-center"
             style={{ height: "400px" }}
           >
-            <div className="mt-5">
+            <div className="mt-5 text-center">
               <p className="">
                 Soy Isaac Gomez{" "}
                 <span className="" style={{ color: "#610707" }}>

@@ -12,7 +12,7 @@ const Home = () => {
       <h1 className="text-center mt-5 ">¿Quién soy?</h1>
       <p className="text-center " style={{ color: "#610707" }}>Mi introducción</p>
       <AboutMe />
-      <hr />
+      <hr className="mt-5" />
       <Skills />
       <CarruselTrabajos />
     </div>
